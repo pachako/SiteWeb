@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE SECTION */
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itoni-logo {
+  width: auto;
+  height: 100px;
+
+  margin-left: 20px;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+a:link,
+a:visited {
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+nav a:hover,
+nav a:active {
+  background-color: #0f73bb;
+  border-radius: 100px;
+
+  padding: 10px;
+}
+
+nav a:link {
+  display: inline-block;
+}
+
+.main-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: stretch;
+}
+
+.box {
+  height: 100px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box-donate {
+  background-color: #3494aa;
+}
+
+.box-join {
+  background-color: #2e8497;
+}
+
+.box-get-involved {
+  background-color: #297284;
+}
