@@ -134,3 +134,22 @@ nav a:link {
 .contact-email {
   margin-bottom: 12px;
 }
+/* About */
+.about-container{
+
+  margin-top: 40px;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.blockx img{
+  height: auto;
+  width: 136px;
+  margin-bottom: 15px;
+  border-radius:15px;
+  }
+
+  .blockx p{
+    height: auto;
+    width: 136px;
+    }
