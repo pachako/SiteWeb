@@ -8,6 +8,7 @@
 body {
   color: #444;
   font-family: sans-serif;
+  line-height: 1.2;
 
   margin-top: 30px;
 }
@@ -68,6 +69,7 @@ nav a:link {
   border-top-right-radius: 10px;
 }
 
+/* HOME */
 .box-link {
   width: 100%;
 }
@@ -99,4 +101,36 @@ nav a:link {
 
 .box-get-involved {
   background-color: #297284;
+}
+
+/* CONTACT */
+.contact-container {
+  height: 150px;
+  color: #fff;
+
+  display: flex;
+}
+
+.contact {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-container p {
+  text-align: center;
+}
+
+.contact-location {
+  background-color: #3494aa;
+}
+
+.contact-coord {
+  background-color: #2e8497;
+}
+
+.contact-email {
+  margin-bottom: 12px;
 }
