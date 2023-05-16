@@ -15,6 +15,8 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-header {
@@ -50,8 +52,9 @@ nav a:visited {
 nav a:hover,
 nav a:active {
   background-color: #0f73bb;
-  border-radius: 100px;
+  color: #fff;
 
+  border-radius: 100px;
   padding: 10px;
 }
 
@@ -65,9 +68,12 @@ nav a:link {
   border-top-right-radius: 10px;
 }
 
+.box-link {
+  width: 100%;
+}
+
 .box-container {
   display: flex;
-  justify-content: stretch;
 }
 
 .box {
@@ -76,6 +82,11 @@ nav a:link {
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.box-link p {
+  text-align: center;
 }
 
 .box-donate {
